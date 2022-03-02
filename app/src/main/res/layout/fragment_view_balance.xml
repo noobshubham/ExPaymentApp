@@ -11,58 +11,64 @@
         android:id="@+id/title_balance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title_balance"
-        android:textSize="34sp"
         android:layout_marginTop="16dp"
+        android:text="@string/title_balance"
+        android:textColor="#444C54"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@id/title_balance"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/title_balance">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/main_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="12dp"
+                android:padding="10dp"
                 android:text="ID"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <TextView
                 android:id="@+id/main_details"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="12dp"
+                android:padding="10dp"
                 android:text="Details"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <TextView
                 android:id="@+id/main_amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="12dp"
+                android:padding="10dp"
                 android:text="Amount"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="5044"
                 android:textAlignment="center" />
 
@@ -70,6 +76,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="Ram sent some money to shyam for fare"
                 android:textAlignment="center" />
 
@@ -77,6 +84,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="₹1001"
                 android:textAlignment="center" />
         </TableRow>
@@ -89,6 +97,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="5045"
                 android:textAlignment="center" />
 
@@ -96,6 +105,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="Mohan gave money buy vegitables"
                 android:textAlignment="center" />
 
@@ -103,6 +113,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="₹50"
                 android:textAlignment="center" />
 
@@ -116,6 +127,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="5046"
                 android:textAlignment="center" />
 
@@ -123,6 +135,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="Rohan bought a phone from amazon.com"
                 android:textAlignment="center" />
 
@@ -130,6 +143,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="₹9999"
                 android:textAlignment="center" />
 
