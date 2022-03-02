@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.noobshubham.expaymentapp.SplashFragment"
+        android:label="Paisa Phenko"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.noobshubham.expaymentapp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_viewBalanceFragment"
+            app:destination="@id/viewBalanceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sendMoneyFragment"
+            app:destination="@id/sendMoneyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewBalanceFragment"
+        android:name="com.noobshubham.expaymentapp.ViewBalanceFragment"
+        android:label="View Balance"
+        tools:layout="@layout/fragment_view_balance" />
+    <fragment
+        android:id="@+id/sendMoneyFragment"
+        android:name="com.noobshubham.expaymentapp.SendMoneyFragment"
+        android:label="Send Money"
+        tools:layout="@layout/fragment_send_money">
+        <action
+            android:id="@+id/action_sendMoneyFragment_to_moneyAmountFragment"
+            app:destination="@id/moneyAmountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moneyAmountFragment"
+        android:name="com.noobshubham.expaymentapp.MoneyAmountFragment"
+        android:label="Money Amount"
+        tools:layout="@layout/fragment_money_amount">
+        <action
+            android:id="@+id/action_moneyAmountFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.noobshubham.expaymentapp.StatusFragment"
+        android:label="Status"
+        tools:layout="@layout/fragment_status" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="amount"
+            app:argType="float"
+            android:defaultValue="0.00" />
+    </fragment>
+</navigation>
