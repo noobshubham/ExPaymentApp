@@ -7,6 +7,17 @@
     tools:context=".SplashFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toTopOf="@id/title_paisa_phenko"
+        app:layout_constraintEnd_toEndOf="@id/title_paisa_phenko"
+        app:layout_constraintStart_toStartOf="@id/title_paisa_phenko"
+        app:srcCompat="@drawable/money" />
+
     <TextView
         android:id="@+id/title_paisa_phenko"
         android:layout_width="wrap_content"
@@ -22,10 +33,10 @@
 
     <Button
         android:id="@+id/button_continue"
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="@string/continue_button"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@id/title_paisa_phenko"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

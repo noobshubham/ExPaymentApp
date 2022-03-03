@@ -36,7 +36,7 @@
                 android:id="@+id/main_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="6dp"
                 android:text="ID"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
@@ -45,7 +45,7 @@
                 android:id="@+id/main_details"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="6dp"
                 android:text="Details"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
@@ -54,7 +54,7 @@
                 android:id="@+id/main_amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="6dp"
                 android:text="Amount"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
@@ -77,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="6dp"
-                android:text="Ram sent some money to shyam for fare"
+                android:text="Ram sent money to shyam for fare"
                 android:textAlignment="center" />
 
             <TextView
@@ -106,7 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="6dp"
-                android:text="Mohan gave money buy vegitables"
+                android:text="Mohan gave money for vegitables"
                 android:textAlignment="center" />
 
             <TextView
@@ -136,7 +136,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="6dp"
-                android:text="Rohan bought a phone from amazon.com"
+                android:text="Rohan bought phone from amazon"
                 android:textAlignment="center" />
 
             <TextView
